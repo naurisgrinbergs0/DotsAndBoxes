@@ -27,7 +27,7 @@ namespace TwoPersonZeroSumGame.AI
                 return;
 
             // generate tree for a few of the next steps
-            Node tree = GenerateGameTree(game, 1);
+            Node tree = GenerateGameTree(game, 2);
 
             // go through all direct children, calculate scores & save the best
             int bestScoreIndex = 0;
@@ -41,6 +41,18 @@ namespace TwoPersonZeroSumGame.AI
                     bestScoreIndex = i;
                     bestScore = score;
                 }
+
+                // go through all children of current node, calculate scores & save the worst
+                int worstScore = GetGameStateScore(tree.Children[i].Children[0].Lines);
+                for (int n = 1; n < tree.Children[i].Children.Count; n++)
+                {
+                    // calculate score for game state
+                    int scoreChild = GetGameStateScore(tree.Children[i].Children[n].Lines);
+                    if (scoreChild < worstScore)
+                        worstScore = scoreChild;
+                }
+
+                score -= worstScore;
             }
 
             // get dots that make up the line
@@ -181,6 +193,7 @@ namespace TwoPersonZeroSumGame.AI
             {
                 for (int col = 0; col < dotsHorizontal - 1; col++)
                 {
+                    // get score of current level
                     int numOfLinesInArea = lines.Where(l => AreLinesEqual(l, new int[] { col, row, col + 1, row })
                         || AreLinesEqual(l, new int[] { col, row, col, row + 1 })
                         || AreLinesEqual(l, new int[] { col, row + 1, col + 1, row + 1 })

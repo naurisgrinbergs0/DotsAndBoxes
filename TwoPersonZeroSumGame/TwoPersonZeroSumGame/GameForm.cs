@@ -228,9 +228,16 @@ namespace TwoPersonZeroSumGame
             if (!game.GameFinished)
                 labelInfo.Text = game.GetPlayer() == Game.Player.Player1 ? "User's Turn" : "Computer's Turn";
             else
-                labelInfo.Text = game.GetSquares().Where(s => s.GetPlayer() == Game.Player.Player1).Count()
-                    > game.GetSquares().Where(s => s.GetPlayer() == Game.Player.Player2).Count()
-                    ? "User Wins!" : "Computer Wins!";
+            {
+                int player1Squares = game.GetSquares().Where(s => s.GetPlayer() == Game.Player.Player1).Count();
+                int player2Squares = game.GetSquares().Where(s => s.GetPlayer() == Game.Player.Player2).Count();
+                if (player1Squares > player2Squares)
+                    labelInfo.Text = "User Wins!";
+                else if (player1Squares < player2Squares)
+                    labelInfo.Text = "Computer Wins!";
+                else
+                    labelInfo.Text = "Tie!";
+            }
         }
 
         private Dot GetDotUnderMouse(int mouseX, int mouseY)

@@ -9,3 +9,14 @@ C:\Users\nauri\Documents\UNIVERSITY\Mākslīgais intelekts\TwoPersonZeroSumGame\
 C:\Users\nauri\Documents\UNIVERSITY\Mākslīgais intelekts\TwoPersonZeroSumGame\TwoPersonZeroSumGame\obj\Debug\TwoPersonZeroSumGame.MenuForm.resources
 C:\Users\nauri\Documents\UNIVERSITY\Mākslīgais intelekts\TwoPersonZeroSumGame\TwoPersonZeroSumGame\obj\Debug\TwoPersonZeroSumGame.GameForm.resources
 C:\Users\nauri\Documents\UNIVERSITY\Mākslīgais intelekts\TwoPersonZeroSumGame\TwoPersonZeroSumGame\obj\Debug\TwoPersonZeroSumGame.csproj.AssemblyReference.cache
+C:\Users\nauri\Documents\UNIVERSITY\Mākslīgais intelekts\DotsAndBoxes\TwoPersonZeroSumGame\TwoPersonZeroSumGame\bin\Debug\TwoPersonZeroSumGame.exe.config
+C:\Users\nauri\Documents\UNIVERSITY\Mākslīgais intelekts\DotsAndBoxes\TwoPersonZeroSumGame\TwoPersonZeroSumGame\bin\Debug\TwoPersonZeroSumGame.exe
+C:\Users\nauri\Documents\UNIVERSITY\Mākslīgais intelekts\DotsAndBoxes\TwoPersonZeroSumGame\TwoPersonZeroSumGame\bin\Debug\TwoPersonZeroSumGame.pdb
+C:\Users\nauri\Documents\UNIVERSITY\Mākslīgais intelekts\DotsAndBoxes\TwoPersonZeroSumGame\TwoPersonZeroSumGame\obj\Debug\TwoPersonZeroSumGame.csproj.AssemblyReference.cache
+C:\Users\nauri\Documents\UNIVERSITY\Mākslīgais intelekts\DotsAndBoxes\TwoPersonZeroSumGame\TwoPersonZeroSumGame\obj\Debug\TwoPersonZeroSumGame.GameForm.resources
+C:\Users\nauri\Documents\UNIVERSITY\Mākslīgais intelekts\DotsAndBoxes\TwoPersonZeroSumGame\TwoPersonZeroSumGame\obj\Debug\TwoPersonZeroSumGame.MenuForm.resources
+C:\Users\nauri\Documents\UNIVERSITY\Mākslīgais intelekts\DotsAndBoxes\TwoPersonZeroSumGame\TwoPersonZeroSumGame\obj\Debug\TwoPersonZeroSumGame.Properties.Resources.resources
+C:\Users\nauri\Documents\UNIVERSITY\Mākslīgais intelekts\DotsAndBoxes\TwoPersonZeroSumGame\TwoPersonZeroSumGame\obj\Debug\TwoPersonZeroSumGame.csproj.GenerateResource.cache
+C:\Users\nauri\Documents\UNIVERSITY\Mākslīgais intelekts\DotsAndBoxes\TwoPersonZeroSumGame\TwoPersonZeroSumGame\obj\Debug\TwoPersonZeroSumGame.csproj.CoreCompileInputs.cache
+C:\Users\nauri\Documents\UNIVERSITY\Mākslīgais intelekts\DotsAndBoxes\TwoPersonZeroSumGame\TwoPersonZeroSumGame\obj\Debug\TwoPersonZeroSumGame.exe
+C:\Users\nauri\Documents\UNIVERSITY\Mākslīgais intelekts\DotsAndBoxes\TwoPersonZeroSumGame\TwoPersonZeroSumGame\obj\Debug\TwoPersonZeroSumGame.pdb
